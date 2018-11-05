@@ -1,0 +1,4 @@
+br\com\springboot\mybatis\springboot2mybatis\services\rest\StudentBatisRest.class
+br\com\springboot\mybatis\springboot2mybatis\Application.class
+br\com\springboot\mybatis\springboot2mybatis\configuration\DataSourceConfiguration.class
+br\com\springboot\mybatis\springboot2mybatis\ServletInitializer.class

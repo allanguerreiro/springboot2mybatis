@@ -1,0 +1,8 @@
+br\com\springboot\mybatis\springboot2mybatis\dao\StudentBatisDao.class
+br\com\springboot\mybatis\springboot2mybatis\controller\BatisStudentController.class
+br\com\springboot\mybatis\springboot2mybatis\repository\StudentBatisRepository.class
+br\com\springboot\mybatis\springboot2mybatis\bean\Student.class
+br\com\springboot\mybatis\springboot2mybatis\dao\IStudentBatisDao.class
+br\com\springboot\mybatis\springboot2mybatis\mapper\StudentRowMapper.class
+br\com\springboot\mybatis\springboot2mybatis\controller\IBatisStudentController.class
+br\com\springboot\mybatis\springboot2mybatis\util\Util.class

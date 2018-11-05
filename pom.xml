@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.com.springboot.mybatis.springboot2mybatis</groupId>
+    <artifactId>springboot2mybatis</artifactId>
+    <name>springboot2mybatis :: Main Project</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>springboot2mybatisApp</module>
+        <module>springboot2mybatisComponentes</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>maven.sas</id>
+            <url>http://nexus.devops.sulamerica.br/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://nexus.devops.sulamerica.br/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshots</name>
+            <url>http://nexus.devops.sulamerica.br/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
